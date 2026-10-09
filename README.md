@@ -560,45 +560,24 @@ void main(void) {
 
 ## 10. Evidencias
 
-En esta sección se deben incluir fotografías reales del código, las conexiones y el funcionamiento del sistema.
+En esta sección se muestran las conexiones, funcionamiento del sistema y Simulacion.
 
-### 10.1. Código en MPLAB X IDE
+### 10.1. Simulacion
 
-Se presenta el código fuente utilizado para configurar el PIC18F45K22, procesar los pulsos del encoder y controlar la pantalla LCD.
+Se presenta la simulación usando el  PIC18F45K22.
 
-![Código desarrollado en MPLAB X IDE](imagenes/codigo_mplab.png)
+<img src="Imagenes/led_apagado.jpeg" width="350">
 
-### 10.2. Conexión de la pantalla LCD I2C
+### 10.1. Simulacion
 
-Se muestra la conexión de los terminales GND, VCC, SDA y SCL del módulo adaptador de la pantalla LCD.
+Se presenta la simulación usando el  PIC18F45K22.
 
-![Conexión de la pantalla LCD I2C](imagenes/conexion_lcd_i2c.png)
+<img src="Imagenes/led_apagado.jpeg" width="350">
 
-### 10.3. Montaje físico del motor y el encoder
-
-Se presenta el motor JGA25-370 y las conexiones de alimentación del motor y del encoder.
-
-![Montaje físico del motor y encoder](imagenes/montaje_motor_encoder.png)
-
-### 10.4. Circuito completo
+### 10.2. Circuito completo
 
 Se muestra la integración del PIC18F45K22, el motor con encoder y la pantalla LCD I2C.
 
-![Circuito completo de la práctica](imagenes/circuito_completo.png)
-
-### 10.5. Visualización normal de la velocidad
-
-Se presenta la pantalla LCD mostrando el mensaje de velocidad del motor y el valor calculado por el programa.
-
-![Visualización de RPM](imagenes/lectura_rpm.png)
-
-### 10.6. Prueba de la alerta de sobrevelocidad
-
-Se presenta la pantalla con el mensaje de alerta cuando el valor calculado supera el umbral de 7000 RPM, siempre que esta condición haya sido probada en el montaje.
-
-![Alerta de sobrevelocidad](imagenes/alerta_sobrevelocidad.png)
-
-> **Nota:** sustituir los nombres de las imágenes por los archivos reales del repositorio. Si la alerta no se activó durante las pruebas físicas, se debe describir como una función implementada en el código y no como un resultado experimental comprobado.
 
 ## 11. Dificultades y soluciones
 
