@@ -566,18 +566,13 @@ En esta sección se muestran las conexiones, funcionamiento del sistema y Simula
 
 Se presenta la simulación usando el  PIC18F45K22.
 
-<img src="Imagenes/led_apagado.jpeg" width="350">
-
-### 10.1. Simulacion
-
-Se presenta la simulación usando el  PIC18F45K22.
-
-<img src="Imagenes/led_apagado.jpeg" width="350">
+<img src="Imagenes/.jpeg" width="350">
 
 ### 10.2. Circuito completo
 
 Se muestra la integración del PIC18F45K22, el motor con encoder y la pantalla LCD I2C.
 
+<img src="Imagenes/montaje.jpeg" width="350">
 
 ## 11. Dificultades y soluciones
 
