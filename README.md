@@ -117,28 +117,31 @@ La velocidad de rotación se expresa en revoluciones por minuto (RPM). Para calc
 
 La fórmula general es:
 
-\[
-RPM=\frac{N_p \times 60}{PPR \times t}
-\]
+$$
+RPM = \frac{Pulsos \times 60}{PPR \times Tiempo}
+$$
 
 Donde:
 
-- \(N_p\): cantidad de pulsos detectados.
-- \(PPR\): pulsos por revolución del eje que se desea medir.
-- \(t\): intervalo de medición en segundos.
-- \(60\): factor de conversión de segundos a minutos.
+RPM: revoluciones por minuto del motor.
+
+Pulsos: cantidad de pulsos registrados durante la medición.
+
+PPR: cantidad de pulsos por revolución del eje medido.
+
+Tiempo: duración de la medición en segundos.
 
 En el programa se utiliza un intervalo de muestreo de 400 ms y un factor de 5 pulsos por revolución. Por tanto, el cálculo implementado es:
 
-\[
-RPM=\frac{N_p \times 60000}{5 \times 400}
-\]
+$$
+RPM = \frac{Pulsos\ medidos \times 60000}{5 \times 400}
+$$
 
 La expresión equivale a:
 
-\[
-RPM=N_p \times 30
-\]
+$$
+RPM = Pulsos\ medidos \times 30
+$$
 
 Este factor corresponde a la calibración utilizada en el código. Para obtener RPM reales del eje de salida, debe verificarse experimentalmente que el valor de 5 pulsos por revolución sea el adecuado para el montaje.
 
@@ -243,9 +246,9 @@ Posteriormente, el contador se reinicia para comenzar una nueva ventana de medic
 
 El programa utiliza la expresión:
 
-\[
-RPM=\frac{N_p \times 60000}{5 \times 400}
-\]
+$$
+RPM = \frac{Pulsos\ medidos \times 60000}{5 \times 400}
+$$
 
 El factor de cinco pulsos por revolución corresponde al valor utilizado en el código definitivo. Su validez debe comprobarse mediante la calibración del encoder.
 
