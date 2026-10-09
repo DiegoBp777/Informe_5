@@ -572,7 +572,7 @@ Se presenta la simulación usando el  PIC18F45K22.
 
 Se muestra la integración del PIC18F45K22, el motor con encoder y la pantalla LCD I2C.
 
-<img src="Imagenes/montaje.jpeg" width="350">
+<img src="Imagenes/montaje.jpeg" width="600">
 
 ## 11. Dificultades y soluciones
 
