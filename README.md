@@ -569,7 +569,7 @@ En esta sección se muestran las conexiones, funcionamiento del sistema y Simula
 
 Se presenta la simulación usando el  PIC18F45K22.
 
-<img src="Imagenes/.jpeg" width="350">
+<img src="Imagenes/simulacion_2.jpeg" width="350">
 
 ### 10.2. Circuito completo
 
